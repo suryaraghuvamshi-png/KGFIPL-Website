@@ -584,6 +584,17 @@
     }, 6500);
   }
 
+  function setupImageFallbacks() {
+    $$(".office-gallery img, .career-people-image img").forEach((image) => {
+      image.addEventListener("error", () => {
+        if (!image.dataset.fallbackApplied) {
+          image.dataset.fallbackApplied = "true";
+          image.src = fallbackImage;
+        }
+      });
+    });
+  }
+
   function setupContactAndCareers() {
     $("#careerForm").addEventListener("submit", submitCareer);
     $("#contactForm").addEventListener("submit", submitContact);
@@ -610,6 +621,7 @@
     $("#currentYear").textContent = new Date().getFullYear();
     renderDivisionCards();
     setupHero();
+    setupImageFallbacks();
     setupProjectManager();
     setupContactAndCareers();
     setupAdmin();
