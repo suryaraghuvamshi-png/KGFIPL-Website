@@ -21,7 +21,7 @@ a { color: inherit; text-decoration: none; }
 button, input, select, textarea { font: inherit; }
 ::selection { color: var(--white); background: var(--navy); }
 
-.site-nav { z-index: 20; min-height: 79px; padding: 10px 0; background: var(--white); box-shadow: 0 7px 25px #06142618; }
+.site-nav { z-index: 20; min-height: 79px; padding: 10px 0; background: var(--white); box-shadow: 0 7px 25px #8c909654; }
 .brand { display: inline-flex; align-items: center; gap: 11px; color: var(--ink); }
 .brand:hover { color: var(--ink); }
 .brand-logo { display: block; width: 128px; height: 68px; object-fit: contain; }

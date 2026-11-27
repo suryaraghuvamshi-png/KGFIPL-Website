@@ -24,9 +24,9 @@
     { name: "Adventure & Hospitality", short: "Hotels and resorts combining welcoming stays with engaging adventure experiences.", description: "Our hospitality vision brings adventure activities together with hotels and resorts to create memorable, engaging stays. We aim to serve guests through welcoming spaces, thoughtful experiences and responsible partnerships with local destinations.", services: ["Hotel and resort concepts", "Adventure and guest activities", "Hospitality operations and services", "Tourism and destination partnerships"], image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=82" }
   ];
   const heroSlides = [
-    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=88",
-    "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2000&q=88",
-    "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=2000&q=88"
+    "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qi7mFlhMwyEK68UfM2RmyZ5-N-7GIH13HkJdK0elUKIbW5WEWQM9NrdGx3tKIee0RPlJiSqqMtRFlLmdFef83e29EMBjwU3ht8xtyDfvaR3loelM5FpfyofOC6YnwMoJpuuQaC1EUDrvIN=s680-w680-h510-rw",
+    "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q090Vqs-jU2hp8trf71ejcG3iwF2449mXrL-jcX5HEc7i2lQRro2f0sHDbp_k28gho0xR_AcmSYAcuZPmT8d1KGQozL9WA7blMu0o974pNMJG_0x5hAezil4thk6eSxbd7M4CsHSAc61U=s680-w680-h510-rw",
+    "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SF2t9TsT63DpEB1OIEwdLaxE41vJoG9C_Jc1LpytCwd-sjGWckKg0KbriA5bkSdhmgpTDVG2jng35Qp1tn7qrHXhFBjFKL32HEjlq7Te0Fk7j-O_dPo7ZtcaMy19ywsAgBpin38kzmCOMW=s680-w680-h510-rw"
   ];
   const $ = (selector, root) => (root || document).querySelector(selector);
   const $$ = (selector, root) => Array.from((root || document).querySelectorAll(selector));
